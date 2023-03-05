@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(rgb(0,0,0),rgb(113,116,117));
+    font-family: sans-serif;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: none;
+}
+.head{
+    position: relative;
+    padding: 30px;
+    margin-top: 0px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    
+}
+li:hover{
+    color: burlywood;
+    transition: 0.5s;
+}
+li{
+    list-style: none;
+    margin: 10px;
+}
+.btn{
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90px;
+    outline: none;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: yellow;
+    background-color: rgb(182,10,10);
+}
+.cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: 1s;
+}
+.pic{
+    border-radius: 50%;
+}
+img{
+    border-radius: 50%;
+    height: 300px;
+    width:280px;
+    border:3px solid rgd(0,162,255)
+}
+h2{
+    display: flex;
+    color: white;
+}
+.text h1{
+    color:white;
+}
+.text h4{
+    color: white;
+}
+.text span{
+    color: red;
+}
+.download{
+    font-size: 15px;
+    border-radius: 5px;
+    padding:15px;
+    width: 150px;
+    margin: 20px;
+    margin-left: 0px;
+    outline: none;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.download:hover{
+    color: yellow;
+    background-color: rgb(182,10,10);
+}
